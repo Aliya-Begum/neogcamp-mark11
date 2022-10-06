@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-:root{
-    --primary-color : #7e22ce;
-}
 
-body{
-    background-color: var(--primary-color);
+body {
     font-family: 'Open Sans', sans-serif;
+    background-image: url(/images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
 }
 
-h1{
+h1 {
     text-align: center;
     margin: 2rem 0;
     font-weight: bolder;
     font-size: 30px;
 }
 
-.input-label{
+.input-label {
     display: block;
     text-align: center;
     /* margin-left: 32%; */
@@ -25,26 +24,51 @@ h1{
     font-weight: bold;
 }
 
-.input-box{
+.input-box {
     display: block;
     width: 18%;
     margin-left: 40%;
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
-#check-button{
+
+#check-button {
     display: block;
     margin: auto;
     margin-top: 1rem;
     padding: 0.6rem 1rem;
     border-radius: 0.5rem;
     font-size: 15px;
-    background-color: var(--primary-color);
+    background-color: black;
+    color: white;
 }
 
-#output-container{
+#output-container {
     text-align: center;
     margin-top: 2rem;
     font-weight: bold;
     font-size: 20px;
+    height: 20px;
+}
+
+#footer-size {
+    margin-top: 12%;
+}
+
+#footer {
+    text-align: center;
+}
+
+.img {
+    max-width: 2.5rem
+}
+
+#list {
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+.list-inline {
+    display: inline;
 }

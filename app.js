@@ -15,11 +15,12 @@ function calculateBirthDateIsLucky(){
 
 function compareValues(sum, luckyNumber){
     if(sum%luckyNumber==0){
-        outputContainer.innerText = "YAY Your birthday is Lucky 😀";
+        outputContainer.innerText = "YAY!!!! Your birthday is Lucky 😀";
     }else{
         outputContainer.innerText = "Your birthday is not Lucky 😥";
     }
 }
+
 function calculateBirthDate(dob){
     dob = dob.replaceAll("-", "")
     var sum = 0;
