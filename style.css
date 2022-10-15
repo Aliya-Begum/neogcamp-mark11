@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url(/images/bg-img.jpg);
+    background-image: url(/images/bg2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -11,8 +11,8 @@ body {
 h1 {
     text-align: center;
     margin: 2rem 0;
-    font-weight: bolder;
     font-size: 30px;
+    font-weight: 900;
 }
 
 .input-label {
@@ -52,8 +52,11 @@ h1 {
     height: 20px;
 }
 
-#footer-size {
-    margin-top: 12%;
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #footer {
