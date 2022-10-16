@@ -4,7 +4,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-image: url(/images/bg2.webp);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 215vh 47vw;
     margin: 0;
 }
 
