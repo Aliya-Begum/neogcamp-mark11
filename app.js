@@ -5,11 +5,17 @@ const outputContainer = document.querySelector("#output-container");
 
 function calculateBirthDateIsLucky(){
     const dob = dateOfBirth.value;
+    const luckyNum = luckyNumber.value;
     const sum = calculateBirthDate(dob);
-    if(sum&&dob){
-        compareValues(sum, luckyNumber.value);
+    if(sum&&luckyNum){
+        if(luckyNum>0){
+            compareValues(sum, luckyNumber.value);
+        }else{
+            outputContainer.innerText = " Lucky number should be greater than 0";
+        }
+ 
     }else{
-        outputContainer.innerText = "Please enter both the fields";
+        outputContainer.innerText = "Please enter both the fields" ;
     }
 }
 
