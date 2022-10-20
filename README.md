@@ -1,7 +1,7 @@
 
 # Is Your Birthday Lucky
 
-This web app is just for fun. This app will tell you whether you birthday is lucky or not. This app made with HTML, CSS and JavaScript.
+This web app is just for fun. This app will tell you whether your birthday is lucky or not. This app made with HTML, CSS and JavaScript.
 
 So, let's share with your friends and have some fun.
 ## How to use this website:
