@@ -3,7 +3,8 @@
 
 This web app is just for fun. This app will tell you whether your birthday is lucky or not. Let's share with your friends and have some fun.
 
-## Link - https://neogcamp-mark11-luckybirthday.netlify.app/
+## Link
+https://neogcamp-mark11-luckybirthday.netlify.app/
 
 ## Technology used
 * HTML
